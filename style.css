@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #FEFAF2;
+    color: #482C24;
+}
+
+.wrapper{
+    border-image: url(bgimg.png) 30 repeat;
+    border-style:solid; border-width:50px;
+    
+}
+.title{
+    font-family: ToppanBunkyuMinchoPr6N-Regular;
+    font-size: 50px;
+    background: linear-gradient(transparent 40%, #F0947B 40%);
+    width: 500px;
+    overflow: hidden;
+}
+
+/*back FEFAF2
+pink FCEBE7
+yellow F7D583
+red F0947B
+moji 482C24
+*/
+
+
+/*top-section*/
+.top-section {
+    height: 100%;
+    position: relative;
+}
+
+.top-section .big-title {
+    text-align: center;
+    font-size: 70px;
+    padding: 260px 30px 0;
+    font-family: ToppanBunkyuMinchoPr6N-Regular;
+    text-shadow: 20px, 20px, 5px, pink;
+    letter-spacing: 8px;
+}
+
+.top-section span {}
+
+.top-section img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*about-section*/
+.pic-box{
+    width: 312px;
+    float: left;
+    padding: 0 30px;
+}
+.pic-box img{
+    padding: 15px 0;
+}
+.wordbox{
+    float: right;
+    width: 800px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+/*work-section*/
+.workbox {
+    display: flex;
+    width: 500px;
+}
+.workbox img{
+    float:none;
+}
+
+
+
+
+
+
+
+
+
+
+/*ex-section*/
