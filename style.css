@@ -217,22 +217,52 @@ moji 482C24
     height: 100vh;
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    width: 100vw;
 }
 .modal__bg{
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0.1);
     height: 100vh;
     position: absolute;
     width: 100%;
+    left: 0;
 }
 .modal__content{
     background: #fff;
-    left: 30%;
+    border-radius: 20px;
+    border-image: url(bgimg.png) 30 repeat;
+    border-style: dashed;
+    border-width: 20px;
     padding: 40px;
     position: absolute;
     top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    width: 60%;
+    width: 40%;
+}
+.modal__content img{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+.modal__content h3{
+    font-size: 30px;
+}
+.modal__content span{
+    font-size: 10px;
+    padding: 30px;
+}
+.modal__p{
+   padding: 20px;
+ 
+}
+.modal__p p{
+    font-size: 14px;
+    line-height: 2em;
+}
+.js-modal-close img{
+    width: 30px;
+    float: right;
 }
 
 
